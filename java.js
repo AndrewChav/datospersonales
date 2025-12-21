@@ -2,7 +2,7 @@ let nombre = prompt("Por favor, ingrese su nombre:");
 const fechaNaciUsuario = prompt("Ingrese su fecha de nacimiento (AAAA-MM-DD):");
 let sexo = prompt("Ingrese su sexo (Femenino/Maculino):");
 let tipoSangre = prompt("Ingrese su tipo de sangre:");
-let altura = parseFloat(prompt("Ingrese su altura en pulgadas(In):"));
+let altura = parseFloat(prompt("Ingrese su altura en pulgadas (In):"));
 let calcularAltura;
 let peso = parseFloat(prompt("Ingrese su peso en kg:"));
 let calcularPeso;
