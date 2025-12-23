@@ -26,13 +26,37 @@ body {
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
     max-width: 1200px;
     width: 100%;
+    text-align: center;
 }
 
-h1 {
+.container1{
+    background:rgba(30, 106, 62, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.container1:hover{
+    transform: translateY(-5px);
+}
+
+.container  h1 {
+    color: white;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.container h2 {
     color: #333;
     text-align: center;
+    margin-top: 15px;
     margin-bottom: 40px;
     font-size: 32px;
+}
+.container h3{
+    color: #034f0c;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
 .datos-grid {
