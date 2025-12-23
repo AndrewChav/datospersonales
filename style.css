@@ -30,12 +30,12 @@ body {
 }
 
 .container1{
-    background:rgba(30, 106, 62, 0.5);
+    background:rgba(30, 106, 62, 0.7);
     transition: transform 0.3s ease;
 }
 
 .container1:hover{
-    transform: translateY(-5px);
+    transform: translateY(-6px);
 }
 
 .container  h1 {
@@ -46,14 +46,12 @@ body {
 
 .container h2 {
     color: #333;
-    text-align: center;
     margin-top: 15px;
     margin-bottom: 40px;
     font-size: 32px;
 }
 .container h3{
     color: #034f0c;
-    text-align: center;
     margin-top: 15px;
     margin-bottom: 10px;
     font-size: 20px;
